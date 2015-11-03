@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aaron Hardy</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_back">Back</string>
+    <string name="action_forward">Skip</string>
+    <string name="title_activity_game">HangDroid</string>
+</resources>

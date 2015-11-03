@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:animateLayoutChanges="true"
+    tools:context="com.khesyc.ahardy.ahardyDev.ActivityMain"
+    android:background="@drawable/gradient_background" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:text="HangDroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_green"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginBottom="75dp"
+            android:id="@+id/txtTitle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Player"
+            android:id="@+id/btnSingle"
+            android:layout_marginBottom="10dp"
+            android:onClick="startSinglePlayerGame" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multi Player"
+            android:id="@+id/btnMulti"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scores"
+            android:id="@+id/btnScores"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+</RelativeLayout>
